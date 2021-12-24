@@ -1,0 +1,25 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+html,
+body {
+    /* background-image: url('../public/dark-hero.jpeg');
+    background-size: 86.125rem; */
+
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42/var(--tw-bg-opacity));
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 25.075rem;
+    background-image: url('../public/dark-hero.jpeg');
+    background-size: 86.125rem;
+    position: relative;
+    top: 0;
+    right: 0;
+    /* background-color: rgba(255, 255, 255, 0.055); */
+}
